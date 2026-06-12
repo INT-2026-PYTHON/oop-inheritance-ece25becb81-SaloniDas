@@ -176,11 +176,6 @@ class Triangle(Shape):
 
 shape = Shape("Shape")
 
-try:
-    shape.describe()
-except NotImplementedError as e:
-    print("Error:", e)
-
 print()
 
 shapes = [
